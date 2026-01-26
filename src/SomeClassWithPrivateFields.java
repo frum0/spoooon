@@ -19,7 +19,7 @@ public class SomeClassWithPrivateFields {
 
 
     // методы
-    public void setIntField(int intField) {
+    private void setIntField(int intField) {
         this.intField = intField;
     }
 
